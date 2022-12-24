@@ -34,11 +34,25 @@ function Timeline(props: TimelineProps) {
                         <h2 className='font-bold uppercase text-gray-900 pb-3'>{p.title}</h2>
                         <p className='pb-3'>{p.desc}</p>
                         <div className='flex pb-8 items-center'>
-                            <LinkIcon className='h-4 text-gray-700' />
-                            <a href='#' className='underline italic ml-3'>
-                                http://www.google.it
+                            <a href={p.link} className='underline italic ml-3'>
+                                {p.link_name}
                             </a>
                         </div>
+			<div className='flex pb-8 items-center'>
+		            <a href={p.link1} className='underline italic ml-3'>
+		               {p.link1_name}
+		            </a>
+		        </div>
+			<div className='flex pb-8 items-center'>
+		            <a href={p.link2} className='underline italic ml-3'>
+		               {p.link2_name}
+		            </a>
+		        </div>
+			<div className='flex pb-8 items-center'>
+		            <a href={p.link3} className='underline italic ml-3'>
+		               {p.link3_name}
+		            </a>
+		        </div>	
                     </div>
                 </div>
             ))}

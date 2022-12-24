@@ -32,7 +32,7 @@ function Hero() {
                     />
                 </div>
                 <h1 className='mb-3'>Salve! I am Nicolò,</h1>
-                <h1 className='mb-3'>Researcher, AI and NLP enthusiast</h1>
+                <h1 className='mb-3'>ELLIS PhD Student, AI and NLP enthusiast</h1>
             </div>
             <div className='flex flex-col lg:flex-row space-y-12 lg:space-y-0'>
                 <div className='w-full lg:w-2/5'>
@@ -46,13 +46,10 @@ function Hero() {
                 <div className='w-full lg:w-4/5 lg:px-10'>
                     <h2 className='text-2xl font-semibold mb-3 text-gray-900'>Biography</h2>
                     <p className='mb-3'>
-                        Hi! I am a Researcher in Natural Language Processing with a particular interest in toxic phenomena on Social Networks, and possible combination with Network/Complex Systems analysis tools (for Social Media). More in general, I am trying to give my contribution in the Computational Social Science field.
-                    </p>
-                    <p>
-                         I have a Master's Degree in Computer Engineering (focusing on AI field) and a Bachelor in Information Engineering, both at University of Padua. News coming soon for the future.
-                    </p>
-                    <p>
-                        Currently, I am working on the combination of syntactic information with more advanced models, both in general tasks and in more social ones. Contact me if you're interested!
+                        Hi! I am an ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno 				Kessler (Trento, Italy), working on Natural Language Processing. I am interested 				in toxic phenomena on Social Networks, and possible combinations of NLP solutions 				with Network/Complex Systems analysis tools (for Social Media). More in general, 				I am trying to give my contribution in the Computational Social Science field.
+		    </p>
+		    <p>
+			If you are interested in Hate Speech, Counter Narratives and modeling of Social 			Conversation, get in touch!
                     </p>
                 </div>
                 <div className='w-full lg:w-1/5'>
@@ -62,12 +59,12 @@ function Hero() {
                         <p>Nicolò Penzo</p>
                     </div>
                     <div className='flex mb-2'>
-                        <p className='font-bold mr-2 text-gray-900'>Date of birth:</p>
+                        <p className='font-bold mr-2 text-gray-900'>Birth:</p>
                         <p>29/10/1998</p>
                     </div>
                     <div className='flex mb-2'>
                         <p className='font-bold mr-2 text-gray-900'>Email:</p>
-                        <p>npenzo98@gmail.com</p>
+                        <p>npenzo@fbk.eu</p>
                     </div>
                     <div className='flex mb-2'>
                         <p className='font-bold mr-2 text-gray-900'>Phone:</p>

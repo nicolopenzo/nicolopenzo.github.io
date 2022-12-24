@@ -14,7 +14,8 @@ const educationPeriods: Period[] = [
         to: '2020',
         title: 'BSc in Information Engineering',
         desc: 'Relevant subjects: Calculus, General Physics, Data and Algorithms, Programming, Telecommunications, Electronics, Automatic Controls, Systems and Modeling, Data and Signal Analysis',
-        link: 'https://en.didattica.unipd.it/off/2017/LT/IN/IN0513'
+        link: 'https://en.didattica.unipd.it/off/2017/LT/IN/IN0513',
+        link_name: 'Information Engineering at UniPD'
     },
     {
         location: 'University of Padua',
@@ -22,7 +23,8 @@ const educationPeriods: Period[] = [
         to: '2022',
         title: 'MSc in Computer Engineering - AI & Robotics',
         desc: ' Machine/Deep Learning, Natural Languague Processing, Graph Analysis, Big Data Computing, Computer Vision, Operation Research, Intelligent Robotics and NeuroRobotics',
-        link: 'https://en.didattica.unipd.it/off/2020/LM/IN/IN2547'
+        link: 'https://en.didattica.unipd.it/off/2020/LM/IN/IN2547',
+        link_name: 'Computer Engineering at UniPD'
     }
 ];
 
@@ -32,22 +34,43 @@ const experiencePeriods: Period[] = [
         from: 'September 2021',
         to: 'July 2022',
         title: 'Teaching Assistant',
-        desc: 'Assistant at the courses pf Laboratory Programming, Artificial Intelligence (BSc in Computer Engineering) and Big Data Computing (MSc in Computer Engineering) at the University of Padua.'
+        desc: 'Assistant at the courses of Laboratory Programming, Artificial Intelligence (BSc in Computer Engineering) and Big Data Computing (MSc in Computer Engineering) at the University of Padua.',
+        link: 'https://www.dei.unipd.it',
+        link_name: 'DEI UniPD'
     },
     {
         location: 'University of Padua',
         from: 'February 2022',
         to: 'June 2022',
         title: 'Research Training',
-        desc: 'In this period I am trying to applying techniques from NLP, Deep/Machine Learning and Graph Analysis, to predict social phenomena in Social Media Platforms. Doing it in the context of my Master Thesis Supervisors: prof. Giorgio Satta, prof. Fabio Vandin'
+        desc: 'In this period I am trying to applying techniques from NLP, Deep/Machine Learning and Graph Analysis, to predict social phenomena in Social Media Platforms. Doing it in the context of my Master Thesis Supervisors: prof. Giorgio Satta, prof. Fabio Vandin',
+        link: 'https://www.dei.unipd.it',
+        link_name: 'DEI UniPD'
     },
     {
         location: 'Bocconi University',
         from: 'June 2022',
         to: 'August 2022',
         title: 'Research Intern',
-        desc: 'Internship period at MilaNLP group at Bocconi University, around hate speech detection and more general NLP works.'
-    }
+        desc: 'Internship period at MilaNLP group at Bocconi University, around hate speech detection and more general NLP works.',
+        link: 'https://milanlproc.github.io',
+        link_name: 'MilaNLP'
+    },
+    {
+        location: 'Fondazione Bruno Kessler and University of Trento',
+        from: 'September 2022',
+        to: 'Ongoing',
+        title: 'PhD Student',
+        desc: 'ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno Kessler (Trento). My research topic is about the study of hate speech and counternarratives from both the NLP and Social Network Analysis. Get in touch if you are interested!',
+        link: 'https://dh.fbk.eu/',        
+	link_name: 'DH group',
+	link1: 'https://land.fbk.eu/',
+	link1_name: 'LanD group',
+	link2: 'https://mobs-fbk.github.io/index.html',
+	link2_name: 'MobS group',
+	link3: 'https://ellis.eu/phd-postdoc',
+	link3_name: 'ELLIS PhD and Postdoc program'
+	}
 ];
 
 const documents: Document[] = [
