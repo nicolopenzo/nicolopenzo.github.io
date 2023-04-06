@@ -67,10 +67,6 @@ function Hero() {
                         <p>npenzo@fbk.eu</p>
                     </div>
                     <div className='flex mb-2'>
-                        <p className='font-bold mr-2 text-gray-900'>Phone:</p>
-                        <p>(+39) 348 0011480</p>
-                    </div>
-                    <div className='flex mb-2'>
                         <p className='font-bold mr-2 text-gray-900'>Address:</p>
                         <p>Isola Vicentina(VI), Italy</p>
                     </div>
