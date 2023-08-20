@@ -78,7 +78,7 @@ const experiencePeriods: Period[] = [
         title: 'Teaching Assistant',
         desc: 'Assistant at the courses of Applied Natural Language Processing (with prof. Jacopo Staiano, MSc in Artificial Intelligent Systems and MSc in Computer Science).',
         link: 'httpsç//webapps.unitn.it/du/it/Persona/PER0247066/Didattica',
-        link_name: 'DEI UniPD'
+        link_name: 'UniTN page'
     }
 ];
 
