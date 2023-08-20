@@ -1,5 +1,6 @@
 // Components
 import Certificates from './components/Certificates';
+import Material from './components/Material';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
@@ -101,6 +102,13 @@ const documents: Document[] = [
     }
 ];
 
+const material: Document[] = [
+    {
+        title: 'Poster for ELLIS Doctoral Symposium 2023',
+        link: process.env.PUBLIC_URL + '/edsposter_2023.pdf'
+    }
+];
+
 function App() {
     return (
         <div className='min-h-full px-2 md:px-12 py-8 text-gray-600'>
@@ -110,6 +118,7 @@ function App() {
                 <Timeline id='education' title='Education' periods={educationPeriods} />
                 <Timeline id='experience' title='Experience' periods={experiencePeriods} />
                 <Certificates title='Certificates' documents={documents} />
+		<Material title='Material' documents={material} />
             </main>
         </div>
     );
