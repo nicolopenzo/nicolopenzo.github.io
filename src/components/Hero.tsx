@@ -46,10 +46,10 @@ function Hero() {
                 <div className='w-full lg:w-4/5 lg:px-10'>
                     <h2 className='text-2xl font-semibold mb-3 text-gray-900'>Biography</h2>
                     <p className='mb-3'>
-                        Hi! I am an ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno 				Kessler (Trento, Italy), working on Natural Language Processing. I am interested 				in toxic phenomena on Social Networks, and possible combinations of NLP solutions 				with Network/Complex Systems analysis tools (for Social Media). More in general, 				I am trying to give my contribution in the Computational Social Science field.
+                        Hi! I am an ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno Kessler and University of Trento (Trento, 				Italy), working on Natural Language Processing. I am interested in toxic phenomena on Social Networks, and possible 				combinations of NLP solutions with Network/Complex Systems analysis tools (for Social Media). More in general, 				I am trying to give my contribution in the Computational Social Science field.
 		    </p>
 		    <p>
-			If you are interested in Hate Speech, Counter Narratives and modeling of Social 			Conversation, get in touch!
+			If you are interested in Hate Speech, Counter Narratives and modeling of Social Conversation, get in touch!
                     </p>
                 </div>
                 <div className='w-full lg:w-1/5'>

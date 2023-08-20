@@ -25,7 +25,22 @@ const educationPeriods: Period[] = [
         desc: ' Machine/Deep Learning, Natural Languague Processing, Graph Analysis, Big Data Computing, Computer Vision, Operation Research, Intelligent Robotics and NeuroRobotics',
         link: 'https://en.didattica.unipd.it/off/2020/LM/IN/IN2547',
         link_name: 'Computer Engineering at UniPD'
-    }
+    },
+    {
+        location: 'Fondazione Bruno Kessler and University of Trento',
+        from: 'September 2022',
+        to: 'Ongoing',
+        title: 'PhD Student',
+        desc: 'ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno Kessler (Trento). My research topic is about the study of hate speech and counternarratives from both the NLP and Social Network Analysis. Get in touch if you are interested!',
+        link: 'https://dh.fbk.eu/',        
+	link_name: 'DH group',
+	link1: 'https://land.fbk.eu/',
+	link1_name: 'LanD group',
+	link2: 'https://mobs-fbk.github.io/index.html',
+	link2_name: 'MobS group',
+	link3: 'https://ellis.eu/phd-postdoc',
+	link3_name: 'ELLIS PhD and Postdoc program'
+	}
 ];
 
 const experiencePeriods: Period[] = [
@@ -57,20 +72,14 @@ const experiencePeriods: Period[] = [
         link_name: 'MilaNLP'
     },
     {
-        location: 'Fondazione Bruno Kessler and University of Trento',
-        from: 'September 2022',
-        to: 'Ongoing',
-        title: 'PhD Student',
-        desc: 'ELLIS PhD Student at DH, LanD and MobS unities at Fondazione Bruno Kessler (Trento). My research topic is about the study of hate speech and counternarratives from both the NLP and Social Network Analysis. Get in touch if you are interested!',
-        link: 'https://dh.fbk.eu/',        
-	link_name: 'DH group',
-	link1: 'https://land.fbk.eu/',
-	link1_name: 'LanD group',
-	link2: 'https://mobs-fbk.github.io/index.html',
-	link2_name: 'MobS group',
-	link3: 'https://ellis.eu/phd-postdoc',
-	link3_name: 'ELLIS PhD and Postdoc program'
-	}
+        location: 'University of Trento',
+        from: 'March 2023',
+        to: 'June 2023',
+        title: 'Teaching Assistant',
+        desc: 'Assistant at the courses of Applied Natural Language Processing (with prof. Jacopo Staiano, MSc in Artificial Intelligent Systems and MSc in Computer Science).',
+        link: 'httpsç//webapps.unitn.it/du/it/Persona/PER0247066/Didattica',
+        link_name: 'DEI UniPD'
+    }
 ];
 
 const documents: Document[] = [
