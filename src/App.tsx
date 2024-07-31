@@ -4,6 +4,7 @@ import Material from './components/Material';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
+import TimelineSingle from './components/TimelineSingle';
 
 // Types
 import { Period, Document } from './types/entities';
@@ -83,6 +84,19 @@ const experiencePeriods: Period[] = [
     }
 ];
 
+const publicationPeriods: Period[] = [
+    {
+        location: 'EACL 2024',
+        from: 'March 2024',
+        to: '2020',
+        title: 'Putting Context in Context: the Impact of Discussion Structure on Text Classification',
+        desc: 'Nicolò Penzo, Antonio Longa, Bruno Lepri, Sara Tonelli, Marco Guerini',
+        link: 'https://aclanthology.org/2024.eacl-long.108/',
+        link_name: 'paper'
+    }
+];
+
+
 const documents: Document[] = [
     {
         title: 'English B2 - Speaking',
@@ -117,6 +131,7 @@ function App() {
                 <Hero />
                 <Timeline id='education' title='Education' periods={educationPeriods} />
                 <Timeline id='experience' title='Experience' periods={experiencePeriods} />
+	       <TimelineSingle id='publicationPeriods' title='Relevant Publications' periods={publicationPeriods} />
                 <Certificates title='Certificates' documents={documents} />
 		<Material title='Material' documents={material} />
             </main>
