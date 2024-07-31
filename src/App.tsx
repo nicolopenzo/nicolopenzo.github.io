@@ -75,7 +75,7 @@ const experiencePeriods: Period[] = [
     {
         location: 'University of Trento',
         from: 'March 2023',
-        to: 'June 2023',
+        to: 'June 2024',
         title: 'Teaching Assistant',
         desc: 'Assistant at the courses of Applied Natural Language Processing (with prof. Jacopo Staiano, MSc in Artificial Intelligent Systems and MSc in Computer Science).',
         link: 'httpsç//webapps.unitn.it/du/it/Persona/PER0247066/Didattica',
